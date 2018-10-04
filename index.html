@@ -13,6 +13,8 @@
 
 <h1>Homework 3</h1>
 
+<p id="demo"></p>
+
 <script>
 
 var start = prompt("Please enter Start", "0");
@@ -50,6 +52,9 @@ alert("End is: " + num3);
 
 array.from(num1,num2,num3);
 console.log(Array.from([num1,num2,num3]));
+
+var array = [num1, num2, num3];
+document.getElementById("Demo").innerHTML = array;
 
 </script>
 
